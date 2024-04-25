@@ -6,7 +6,8 @@
 
 Mention in this documentation the orders carried out and the results obtained.
 
-If you have opted for a graphical installation, provide screenshots and describe the procedure up to the result obtained.
+If you have opted for a graphical installation, provide screenshots and describe the procedure up to the result
+obtained.
 
 ### Cloud cmd line interface - AWS Cli
 
@@ -92,7 +93,6 @@ Identify the links between components.
 
 ![](schema.png)
 
-
 ## Analysis
 
 Answer the questions below, giving reasons for your answer (link, source).
@@ -114,7 +114,7 @@ Using the web app
 * What commands do I need to run in the CLI to start an ec2 instance?
 
 ```
-//TODO answer the question
+aws ec2 run-instances --image-id <AMI_ID> --instance-type <INSTANCE_TYPE> --key-name <KEY_PAIR_NAME> --security-group-ids <SECURITY_GROUP_ID>
 ```
 
 ### Docker Engine
@@ -122,13 +122,13 @@ Using the web app
 * What type of hypervisor does Docker use?
 
 ```
-//TODO answer the question
+Type 2 he is over the OS
 ```
 
 * What role does the Docker Desktop play in the Docker architecture?
 
 ```
-//TODO answer the question
+It play as an user interface to the containers and volumes
 ```
 
 ### Java Environment
@@ -136,7 +136,8 @@ Using the web app
 * JDK, JRE, JVM... what's the difference?
 
 ```
-//TODO answer the question
+JDK is to develop with Java.
+JRE is the runtime that iclude de JVM that is the virtual machine on what the runtime will run and it's platform independant
 ```
 
 ### Maven
@@ -144,6 +145,8 @@ Using the web app
 * What is the command you need to use Maven to retrieve dependencies (and only that)?
 
 ```
-//TODO answer the question
+mvn dependency:resolve
+
+And pom.xml that contains dependancy list
 ```
 
