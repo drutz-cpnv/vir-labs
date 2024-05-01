@@ -13,31 +13,24 @@ In this lab, we'll be taking the application we're going to evolve into our own 
 
 ```bash
 //TODO
-mvn package
 ```
 
 * What operation does maven perform ?
 
 ```
 //TODO
--resolve dependencies
--build (en deploy locally)
--run the test
--stop the app
 ```
 
 * What java dependencies are needed to make this work?
 
 ```
-JDK 17 (path env variable ---> \java-17\bin) -> to build en generate the jar
-JVM 17 (java home env variable --> \java-17)  -> to run the app
+//TODO
 ```
 
 * Where do we find the pre-compiled application after that?
 
 ```
 //TODO
-./target folder
 ```
 
 * Delete the folder containing the pre-compiled application, try again to observe the process.
@@ -46,7 +39,6 @@ JVM 17 (java home env variable --> \java-17)  -> to run the app
 
 ```
 //TODO
-Nope. Test-classes are present as maven tools.
 ```
 
 ### Use Java to launch the application
@@ -55,14 +47,12 @@ Nope. Test-classes are present as maven tools.
 
 ```bash
 //TODO
-java -jar target\spring-petclinics-3-2-0-SNAPSHOT.jar
 ```
 
 * Try to access to the app via your browser
 
 ```
 //TODO
-localhost:8080
 ```
 
 * You should get this page
@@ -77,7 +67,6 @@ localhost:8080
 
 ```bash
 //TODO
-./mvnw spring-boot:run
 ```
 
 ---
@@ -90,19 +79,35 @@ localhost:8080
 
 ```
 //TODO
-Spring boot intègre un serveur web + applicatif tomcat.
-C'est lui qui expose le port 8080 et qui déploie l'application.
-Il est intégré dans le spring boot start web
 ```
 
 * Go to http://localhost:8080/owners/find and add an owner
 
 * Using the search function, can you find it?
 
-* Relaunch the application and try again. Is there data persistence?
+* Relaunch the application and try again. How is data persistence ensured?
 
 ```
 //TODO
 ```
 
-* How many logical layer are 
+* How many logic layers are implemented on this application?
+
+```
+//TODO
+```
+
+---
+## Task 03 - Docker - First Analysis
+
+* At this stage of the analysis, can you imagine a little better what kind of needs Docker could help us with?
+
+```
+//TODO
+```
+
+* Try to list the tasks to be carried out to obtain two thirds, one hosting the application part locally and the second third using Docker for the database engine.
+
+```
+//TODO
+```
