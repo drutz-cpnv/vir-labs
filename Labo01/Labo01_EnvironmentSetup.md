@@ -83,6 +83,8 @@ Maven home: /opt/homebrew/Cellar/maven/3.9.6/libexec
 Java version: 17.0.9, vendor: JetBrains s.r.o., runtime: /Users/dimitrirutz/Library/Java/JavaVirtualMachines/jbrsdk-17.0.9/Contents/Home
 Default locale: fr_CH, platform encoding: UTF-8
 OS name: "mac os x", version: "14.4.1", arch: "aarch64", family: "mac"
+
+Then add a .mavenrc at user root to make sure that it use the right JDK using JAVA_HOME env var
 ```
 
 ## Schema
