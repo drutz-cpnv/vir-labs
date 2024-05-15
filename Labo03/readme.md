@@ -78,6 +78,8 @@ docker ps -a
 //TODO
 ```
 
+## Task 02 - Run the container
+
 * Run Nginx Docker
 
 [INPUT]
@@ -115,6 +117,8 @@ docker stop <id>
 ```
 //TODO
 ```
+
+## Task 03 - Familiarize yourself with port publishing
 
 * Make it possible to reach nginx with this command
 
