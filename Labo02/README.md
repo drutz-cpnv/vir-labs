@@ -121,7 +121,7 @@ The data are cached
 * How many logic layers are implemented on this application?
 
 ```
-//TODO
+3 the models, the controllers and the views
 ```
 
 ---
