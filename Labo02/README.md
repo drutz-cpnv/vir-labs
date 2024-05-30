@@ -16,7 +16,7 @@ mvn package
 ```
 
 [OUTPUT]
-```
+```bash
 ~/PhpstormProjects/vir-labs/Labo02 git:[main]
 mvn package
 [INFO] Scanning for projects...
@@ -633,6 +633,12 @@ in project > build > plugins
 mvn exec:java
 ```
 
+**[CORR]**
+```bash
+chmod +x mvnw
+./mvnw spring-boot:run
+```
+
 ---
 
 ## Task 02 - Explore the app
@@ -658,7 +664,7 @@ The data are cached
 * How many logic layers are implemented on this application?
 
 ```
-3 the models, the controllers and the views
+3 the models, the controllers and the views, h2
 ```
 
 ---
