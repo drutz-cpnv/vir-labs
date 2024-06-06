@@ -34,7 +34,7 @@ public class MacBookController {
     }
 
     /* curl sample :
-    curl -i localhost:8080/macbooks/1
+    curl -i localhost:8080/macbook/1
     */
     @GetMapping("/macbook/{id}")
     MacBook one(@PathVariable Long id){
