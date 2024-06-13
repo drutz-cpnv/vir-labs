@@ -315,10 +315,10 @@ docker rm 999ddb269e3
 
 [INPUT]
 ```
-//TODO delete the image
+docker image rm ba5f9d86724c
 ```
 
 [OUTPUT]
 ```
-//TODO
+Deleted: sha256:ba5f9d86724cd93f804e6ac7b298e9e78e281af35887b5ddf17523d39d14122f
 ```
